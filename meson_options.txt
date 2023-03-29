@@ -1,0 +1,3 @@
+option('with-mpi',   type : 'feature', value : 'auto', description: 'enable MPI support')
+option('with-omp',   type : 'boolean', value : true, description: 'enable OpenMP support')
+option('enable-double',   type : 'boolean', value : true, description: 'enable double precision')
